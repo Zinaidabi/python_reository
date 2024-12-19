@@ -11,3 +11,4 @@ day_7_temp = int(input("day 7:"))
 week_temp = (day_1_temp + day_2_temp + day_3_temp + day_4_temp + day_5_temp + day_6_temp + day_7_temp) / 7
 
 print("avg weekly temp: " , week_temp)
+
