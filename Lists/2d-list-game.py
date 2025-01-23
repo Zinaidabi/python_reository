@@ -20,8 +20,8 @@ def place_mines(gmap, num_mines=3):
     while mines < num_mines:
         r = random.randint(0, rows - 1)
         c = random.randint(0, cols - 1)
-        if gmap[r][c] == ' ':  # Asigură-te că mina nu este plasată pe robot
-            gmap[r][c] = '*'  # Plasează mina
+        if gmap[r][c] == ' ':  
+            gmap[r][c] = '*'  
             mines += 1
 place_mines(gmap)           
 
